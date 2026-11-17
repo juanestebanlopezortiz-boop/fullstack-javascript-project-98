@@ -11,6 +11,8 @@ Demostración actualizada del juego (Brain GCD): [ver grabación corregida en As
 
 Demostración del juego (Brain Progression): [Ver grabación en Asciinema](https://asciinema.org/a/HylBh1FXUKmShHgs)
 
+Demostración del juego (Brain Prime): [Ver grabación en Asciinema](https://asciinema.org/a/JxAPmm9lIREcOBOD)
+
 Sumérgete en el complejo ecosistema de JavaScript, aprende a configurar tu entorno de trabajo. Hazte amigo del linter (analizador de calidad de código) y del administrador de dependencias npm. Comprende las diferencias entre git y GitHub, trabaja con repositorios externos. Obtén experiencia en la construcción de la arquitectura de una aplicación completa y en la escritura de código limpio.
 
 Proyecto de aprendizaje de Códica: https://app.codica.la/programs/fullstack-javascript
