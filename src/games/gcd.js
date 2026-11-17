@@ -21,13 +21,15 @@ const playGcdGame = (name) => {
     const num1 = Math.floor(Math.random() * 100) + 1;
     const num2 = Math.floor(Math.random() * 100) + 1;
     const correctAnswer = getGcd(num1, num2);
-    const userAnswer = Number(readlineSync.question(`Pregunta: ${num1} ${num2} `));
 
-    if (userAnswer === correctAnswer) {
+    console.log(`Pregunta: ${num1} ${num2}`);
+    const answer = Number(readlineSync.question("Tu respuesta: "));
+
+    if (answer === correctAnswer) {
       console.log("¡Correcto!");
     } else {
       console.log(
-        `'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`,
+        `'${answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`,
       );
       console.log(`¡Intentémoslo de nuevo, ${name}!`);
       isWinner = false;

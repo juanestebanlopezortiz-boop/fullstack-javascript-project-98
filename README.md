@@ -7,6 +7,9 @@ Demostración del juego (Brain Even): [ver grabación en Asciinema](https://asci
 Demostración del juego (Brain Calc): [ver grabación en Asciinema](https://asciinema.org/a/7BFFPTwZg4PX4TgB)
 
 Demostración del juego (Brain GCD): [ver grabación en Asciinema](https://asciinema.org/a/t9XNbTGWDuYZLF5D)
+Demostración actualizada del juego (Brain GCD): [ver grabación corregida en Asciinema](https://asciinema.org/a/evMFtP5RMwNk8aga)
+
+Demostración del juego (Brain Progression): [Ver grabación en Asciinema](https://asciinema.org/a/HylBh1FXUKmShHgs)
 
 Sumérgete en el complejo ecosistema de JavaScript, aprende a configurar tu entorno de trabajo. Hazte amigo del linter (analizador de calidad de código) y del administrador de dependencias npm. Comprende las diferencias entre git y GitHub, trabaja con repositorios externos. Obtén experiencia en la construcción de la arquitectura de una aplicación completa y en la escritura de código limpio.
 
