@@ -2,7 +2,7 @@ import readlineSync from "readline-sync";
 
 const MAX_ROUNDS = 3;
 const playProgressionGame = (name) => {
-  console.log("Qué número falta en la progresión?");
+  console.log("¿Qué número falta en la progresión?");
   const progressionLength = 10;
 
   let isWinner = true;
@@ -20,7 +20,7 @@ const playProgressionGame = (name) => {
         progression.push(start + j * step);
       }
     }
-    console.log(`Progresión: ${progression.join(" ")}`);
+    console.log(`Pregunta: ${progression.join(" ")}`);
     const answer = Number(readlineSync.question("Tu respuesta: "));
     if (answer === start + missingIndex * step) {
       console.log("Correcto!");

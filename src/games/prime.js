@@ -15,7 +15,7 @@ const isPrime = (number) => {
 };
 
 const playPrimeGame = (name) => {
-  console.log('Responde "yes" si el número es primo. De lo contrario, responde "no".');
+  console.log('Responde "yes" si el número dado es primo. De lo contrario, responde "no".');
 
   let isWinner = true;
   for (let i = 0; i < MAX_ROUNDS; i += 1) {
