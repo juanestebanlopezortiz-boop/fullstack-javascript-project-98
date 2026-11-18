@@ -1,5 +1,7 @@
 import readlineSync from "readline-sync";
 
+const MAX_ROUNDS = 3;
+const MAX_NUMBER = 100;
 const isPrime = (number) => {
   if (number <= 1) {
     return false;
@@ -16,8 +18,8 @@ const playPrimeGame = (name) => {
   console.log('Responde "yes" si el número es primo. De lo contrario, responde "no".');
 
   let isWinner = true;
-  for (let i = 0; i < 3; i += 1) {
-    const number = Math.floor(Math.random() * 100) + 1;
+  for (let i = 0; i < MAX_ROUNDS; i += 1) {
+    const number = Math.floor(Math.random() * MAX_NUMBER) + 1;
 
     console.log(`Pregunta: ${number}`);
     const answer = readlineSync.question("Tu respuesta: ");

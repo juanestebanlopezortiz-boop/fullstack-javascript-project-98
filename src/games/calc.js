@@ -1,16 +1,18 @@
 import readlineSync from "readline-sync";
 
+const MAX_ROUNDS = 3;
+const MAX_NUMBER = 100;
 const playCalcGame = (name) => {
   const operators = ["+", "-", "*"];
 
   let isWinner = true;
 
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < MAX_ROUNDS; i += 1) {
     const randomIndex = Math.floor(Math.random() * operators.length);
     const operator = operators[randomIndex];
 
-    const num1 = Math.floor(Math.random() * 100) + 1;
-    const num2 = Math.floor(Math.random() * 100) + 1;
+    const num1 = Math.floor(Math.random() * MAX_NUMBER) + 1;
+    const num2 = Math.floor(Math.random() * MAX_NUMBER) + 1;
 
     let result;
 

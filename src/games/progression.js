@@ -1,12 +1,13 @@
 import readlineSync from "readline-sync";
 
+const MAX_ROUNDS = 3;
 const playProgressionGame = (name) => {
   console.log("Qué número falta en la progresión?");
   const progressionLength = 10;
 
   let isWinner = true;
 
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < MAX_ROUNDS; i += 1) {
     const start = Math.floor(Math.random() * 10);
     const step = Math.floor(Math.random() * 5) + 1;
     const missingIndex = Math.floor(Math.random() * progressionLength);

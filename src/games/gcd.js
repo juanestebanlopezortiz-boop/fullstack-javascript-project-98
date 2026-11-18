@@ -13,13 +13,15 @@ const getGcd = (num1, num2) => {
   return a;
 };
 
+const MAX_ROUNDS = 3;
+const MAX_NUMBER = 100;
 const playGcdGame = (name) => {
   let isWinner = true;
   console.log("Encuentra el máximo común divisor de los números dados.");
 
-  for (let i = 0; i < 3; i += 1) {
-    const num1 = Math.floor(Math.random() * 100) + 1;
-    const num2 = Math.floor(Math.random() * 100) + 1;
+  for (let i = 0; i < MAX_ROUNDS; i += 1) {
+    const num1 = Math.floor(Math.random() * MAX_NUMBER) + 1;
+    const num2 = Math.floor(Math.random() * MAX_NUMBER) + 1;
     const correctAnswer = getGcd(num1, num2);
 
     console.log(`Pregunta: ${num1} ${num2}`);

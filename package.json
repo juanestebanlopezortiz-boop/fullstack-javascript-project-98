@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![hexlet-check](https://github.com/juanestebanlopezortiz-boop/fullstack-javascript-project-98/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/juanestebanlopezortiz-boop/fullstack-javascript-project-98/actions)",
+  "description": "Colección de cinco juegos de lógica y matemáticas para consola.",
   "license": "ISC",
   "author": "",
   "bin": {
@@ -13,7 +13,6 @@
     "brain-progression": "bin/brain-progression.js"
   },
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
