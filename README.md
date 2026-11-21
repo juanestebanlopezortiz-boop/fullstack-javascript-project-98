@@ -4,7 +4,7 @@
 
 ¡Bienvenidos a Juegos mentales!
 
-Juegos mentales es una aplicación de consola desarrollada con JavaScript y Node.js. Encontrarás cinco juegos de lógica y matemáticas que permiten al usuario poner a prueba sus conocimientos mediante preguntas interactivas.
+Juegos mentales es una aplicación de consola desarrollada con JavaScript y Node.js. Encontrarás seis juegos de lógica y matemáticas que permiten al usuario poner a prueba sus conocimientos mediante preguntas interactivas.
 
 El reto consiste en responder correctamente tres preguntas consecutivas para ganar.
 
@@ -54,6 +54,7 @@ node bin/brain-calc.js
 node bin/brain-gcd.js
 node bin/brain-progression.js
 node bin/brain-prime.js
+node bin/brain-square.js
 ```
 
 ---
